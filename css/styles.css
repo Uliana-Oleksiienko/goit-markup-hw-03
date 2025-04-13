@@ -189,7 +189,7 @@ display: flex;
 .team {
     background-color: #F4F4FD;
 }
-.heading-features,
+
 .heading-team,
 .heading-portfolio {
     padding-top: 120px;
@@ -238,6 +238,7 @@ display: flex;
     flex-wrap: wrap;
         display: flex;
         gap: 24px;
+        row-gap: 48px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 48px;
