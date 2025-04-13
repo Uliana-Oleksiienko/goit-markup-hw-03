@@ -138,11 +138,14 @@ ul {
 }
 /*Section 2: Features*/
 /*.features-section {
+display: flex;
     width: calc((100% - 3 * 24px ) / 4);
 }*/
-
 .features-list {
+    flex-basis: calc((100% - 3 * 24px) / 4);
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 24px;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -183,7 +186,10 @@ ul {
     text-align: center;
 }
 .team-list {
+    flex-basis: calc((100% - 3 * 24px) / 4);
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     gap: 24px;
     margin-left: auto;
     margin-right: auto;
@@ -212,14 +218,20 @@ ul {
     background-color: #FFFFFF;
 }
 .portfolio-list {
-    display: flex;
+    flex-basis: calc((100% - 2 * 24px) / 3);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         gap: 24px;
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 48px;
 }
 .portfolio-list-2 {
-    display: flex;
+    flex-basis: calc((100% - 2 * 24px) / 3);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         gap: 24px;
         margin-left: auto;
         margin-right: auto;
