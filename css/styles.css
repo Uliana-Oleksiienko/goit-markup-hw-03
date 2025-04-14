@@ -23,6 +23,9 @@ img {
     max-width: 100%;
     height: auto;
 }
+a {
+    text-decoration: none;
+}
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -111,7 +114,6 @@ img {
     padding: 188px 0;
 }
 .solution-header {
-    padding-top: 188px;
     margin: 0 auto;
     margin-bottom: 48px;
     color: white;
@@ -126,7 +128,6 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 188px;
     border-radius: 4px;
     padding: 16px 32px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -162,14 +163,10 @@ display: flex;
 .features-list {
     display: flex;
     gap: 24px;
-    padding-top: 120px;
-    padding-bottom: 120px;
     margin: 0 auto;
 }
 .features-list-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
-    border: 1px solid #000;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .features-list-heading {
     margin-bottom: 8px;
@@ -192,7 +189,6 @@ display: flex;
 
 .heading-team,
 .heading-portfolio {
-    padding-top: 120px;
     margin-bottom: 72px;
     font-weight: bold;
     font-size: 36px;
@@ -210,12 +206,10 @@ display: flex;
     gap: 24px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 120px; 
 }
 .team-list-item {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-list-div {
